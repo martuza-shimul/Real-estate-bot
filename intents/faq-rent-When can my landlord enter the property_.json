@@ -1,0 +1,41 @@
+{
+  "id": "c896e7d7-a32b-4f19-947c-4f17a95d4fb5",
+  "name": "faq-rent-When can my landlord enter the property?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A landlord has to give the tenant notice before entering the property, unless it’s an emergency."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

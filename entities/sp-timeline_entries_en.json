@@ -1,0 +1,25 @@
+[
+  {
+    "value": "now",
+    "synonyms": [
+      "now",
+      "ASAP",
+      "As soon as possible"
+    ]
+  },
+  {
+    "value": "1-3 months",
+    "synonyms": [
+      "1-3 months",
+      "less than 3 months"
+    ]
+  },
+  {
+    "value": "3-6 months",
+    "synonyms": [
+      "3-6 months",
+      "less than 6 months",
+      "in 3 to 6 months"
+    ]
+  }
+]

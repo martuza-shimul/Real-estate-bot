@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ecb5ecd8-eb8d-4279-b365-30a85900a56f",
+    "data": [
+      {
+        "text": "3-6 months",
+        "alias": "timeline",
+        "meta": "@timeline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "d70d79c0-c727-4f4e-95b2-ecc1300b1bd4",
+    "data": [
+      {
+        "text": "1-3 months",
+        "alias": "timeline",
+        "meta": "@timeline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1318d849-8edd-4a58-97fe-cc3d9f2d58bf",
+    "data": [
+      {
+        "text": "Now",
+        "alias": "timeline",
+        "meta": "@timeline",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

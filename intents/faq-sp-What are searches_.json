@@ -1,0 +1,41 @@
+{
+  "id": "4a3b53b7-1dfa-4895-9719-c81c2805704f",
+  "name": "faq-sp-What are searches?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "As part of the conveyancing process, your buyer’s solicitor will perform searches of Land Registry and Local Authority information in relation to your home. They will be checking for planning history, and any potential developments around roads, drainage and mining near the property."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

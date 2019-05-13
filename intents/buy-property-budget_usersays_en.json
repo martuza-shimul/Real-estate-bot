@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9fffda93-4fdd-4d4a-95bc-bd432ca565a5",
+    "data": [
+      {
+        "text": "£500-900k",
+        "alias": "buy-budget",
+        "meta": "@buy-budget",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7a1402de-55c4-45de-a582-f81fd9c99c7e",
+    "data": [
+      {
+        "text": "£300-500k",
+        "alias": "buy-budget",
+        "meta": "@buy-budget",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5d1de355-ce23-4377-bded-037ed7c1db15",
+    "data": [
+      {
+        "text": "£1000k+",
+        "alias": "buy-budget",
+        "meta": "@buy-budget",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a6e0a691-b8f3-4087-bd0b-205889473d45",
+    "data": [
+      {
+        "text": "£100-300k",
+        "alias": "buy-budget",
+        "meta": "@buy-budget",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

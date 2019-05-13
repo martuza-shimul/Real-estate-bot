@@ -1,0 +1,9 @@
+{
+  "id": "79b6096d-3a01-443b-958a-cc7062f08345",
+  "name": "sp-timeline",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

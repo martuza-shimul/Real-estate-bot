@@ -1,0 +1,41 @@
+{
+  "id": "3aa2dadb-bab7-4845-bf9d-af298d6a83a3",
+  "name": "faq-rent-What if I can\u0027t pay my rent?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is always your responsibility to pay the rent, but circumstances change. What happens if you become unemployed or are unable to work due to sickness? The most important thing is not to let arrears pile up until they’re unmanageable. Speak to your landlord or letting agent and see if you can reschedule your payments. And don’t forget, you can get insured against sickness and unemployment to keep yourself protected. Click here to find out more."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

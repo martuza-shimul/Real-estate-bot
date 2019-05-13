@@ -1,0 +1,60 @@
+{
+  "id": "371d8906-87c7-41a3-96d8-8a31261820e7",
+  "name": "buy-property-bedroom-number",
+  "auto": true,
+  "contexts": [
+    "bp-bed-no"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bp-bed-no",
+      "affectedContexts": [
+        {
+          "name": "bp-bath-no",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7e3a26c8-7351-44a8-94d2-bcfd0793445d",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Select Here",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How many MINIMUM bathrooms do you need? 🚽"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

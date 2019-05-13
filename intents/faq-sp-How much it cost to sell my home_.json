@@ -1,0 +1,46 @@
+{
+  "id": "5054703d-5dfe-4b49-a1c1-c0792805f3f9",
+  "name": "faq-sp-How much it cost to sell my home?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The costs involved in selling your property consist of: \n\nEnergy Performance Certificate – An EPC, which will need to be commissioned before marketing beginning. Check if your Estate Agent can arrange for an EPC to be carried out on your behalf. \n\nWe can arrange your EPC for you with a cost of between £90 and £120 (including VAT) depending on the size of the property."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Estate Agent commission – Your Estate Agents commission fee, which is usually payable once your Estate Agent sells your property and contracts are exchanged. This is charged as a fixed fee + VAT at the prevailing rate.\n\nLegal fees for the conveyancing process – These vary depending on the solicitor you choose."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "e60149c8-cf29-4d7a-9533-fdb2ef631405",
+  "name": "buy-property-confirmation",
+  "auto": true,
+  "contexts": [
+    "buy-property"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "buy-property-confirmation",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose Here 👇",
+          "replies": [
+            "Now",
+            "1-3 Months",
+            "3-6 Months"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay! Just answer a few questions for us so we know what kind of home you\u0027re looking for. 🏡👀"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When are you looking to purchase a home? 🗓"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

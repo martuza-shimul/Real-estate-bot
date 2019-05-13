@@ -1,0 +1,9 @@
+{
+  "id": "8c2a1088-aa17-46d1-8be4-34747fa1d4f6",
+  "name": "buy-budget",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

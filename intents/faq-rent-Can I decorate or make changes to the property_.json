@@ -1,0 +1,41 @@
+{
+  "id": "29ef6dc1-71c6-427a-ab19-9648c080d2e5",
+  "name": "faq-rent-Can I decorate or make changes to the property?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In most cases, a tenant can only decorate or make changes to the property with the express permission of the landlord. We recommend receiving this permission in writing."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

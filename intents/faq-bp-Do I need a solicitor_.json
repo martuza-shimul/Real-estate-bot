@@ -1,0 +1,41 @@
+{
+  "id": "49bd50e2-596d-4af4-9639-c788c1ae7871",
+  "name": "faq-bp-Do I need a solicitor?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes. They will act on your behalf throughout the purchase, liaising with the seller’s solicitor during what can be a complex process."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "c88f51eb-e852-4e26-8084-d833373215ee",
+  "name": "faq-rent-What is a routine visit?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your landlord or letting agent will regularly schedule visits to the property. They want to make sure that the property is being looked after and maintained in a good condition, and they’ll be looking for any maintenance issues."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

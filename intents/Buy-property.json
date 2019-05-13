@@ -1,0 +1,47 @@
+{
+  "id": "5b9fdd26-88e5-4e3a-902d-b2e1cb54ce4c",
+  "name": "Buy-property",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "buy-property",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \"Let\u0027s do it!\" 👇",
+          "buttons": [
+            {
+              "text": "Let\u0027s do it! 😁",
+              "postback": "Let\u0027s do it!"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Awesome! Let\u0027s help you find your dream home! Are you ready to get started?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

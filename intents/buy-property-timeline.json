@@ -1,0 +1,59 @@
+{
+  "id": "320ab9cb-d44f-469f-8b7a-97ac7571ad7f",
+  "name": "buy-property-timeline",
+  "auto": true,
+  "contexts": [
+    "buy-property-confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bp-timeline",
+      "affectedContexts": [
+        {
+          "name": "bp-budget",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ffdab478-24f5-4fc3-a245-a4616888041c",
+          "required": false,
+          "dataType": "@timeline",
+          "name": "timeline",
+          "value": "$timeline",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose here",
+          "replies": [
+            "£100-300k",
+            "£300-500k",
+            "£500-900k",
+            "£1000k+"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What price range are you looking in? 💵"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

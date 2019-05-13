@@ -1,0 +1,41 @@
+{
+  "id": "541a601c-0b94-4d84-b040-fc62edb1b173",
+  "name": "faq-sp-Will my property be surveyed?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In England, you do not need to arrange a survey, but it is likely that the buyer will, and so a surveyor will arrange an appointment to visit your home. The five key things a surveyor will be looking for are problems with utilities, damp, cracking, problems with roofs, and timber defects. In addition, your buyer’s mortgage lender will organize a mortgage valuation to confirm that the property is worth the money being leaned."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

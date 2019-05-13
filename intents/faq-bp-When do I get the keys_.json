@@ -1,0 +1,41 @@
+{
+  "id": "1d030fff-c87a-4242-8964-eae651c7b6b5",
+  "name": "faq-bp-When do I get the keys?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The keys are released at completion of the sale. Your agent will inform you when the keys are ready to collect from your local Northwood office"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

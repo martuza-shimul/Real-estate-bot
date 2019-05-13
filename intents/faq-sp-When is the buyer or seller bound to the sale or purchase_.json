@@ -1,0 +1,41 @@
+{
+  "id": "19528b3d-8631-4d7c-9128-c1031adc0396",
+  "name": "faq-sp-When is the buyer or seller bound to the sale or purchase?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The seller or the buyer can pull out of the sale at any time and for any reason until the point that both solicitors have receive signed contracts from both parties."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

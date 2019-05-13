@@ -1,0 +1,41 @@
+{
+  "id": "4007890f-3979-4425-b2eb-83cf467e1be6",
+  "name": "faq-bp-What happens at completion?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The monies for the sale - your deposit and the lender\u0027s sum - will be transferred to the seller\u0027s solicitor; only then is the sale complete. Congratulations - you now own the property."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

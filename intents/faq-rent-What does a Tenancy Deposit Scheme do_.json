@@ -1,0 +1,41 @@
+{
+  "id": "d6e95877-6d8f-4730-bcb7-d71f95a58db0",
+  "name": "faq-rent-What does a Tenancy Deposit Scheme do?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A Tenancy Deposit Scheme like My Deposits will protect the money for you and can offer assistance should there be a dispute about the deposit at the end of the tenancy."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

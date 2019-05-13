@@ -1,0 +1,24 @@
+[
+  {
+    "id": "298d34c5-7389-41f8-9727-2cfefa2c4736",
+    "data": [
+      {
+        "text": "How much it\u0027ll cost to sell my home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "49853e19-b1e0-4246-b943-fd1e21b78436",
+    "data": [
+      {
+        "text": "How much it cost to sell my home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

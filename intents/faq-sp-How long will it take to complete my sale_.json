@@ -1,0 +1,41 @@
+{
+  "id": "574ccf94-d450-451b-ba2b-1abacaf336cc",
+  "name": "faq-sp-How long will it take to complete my sale?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Every sale is different. Both your position and the buyer’s position needs to be taken into account before this question can be answered accurately. If your home has been realistically valued, you should expect to receive offers within the first four weeks. Then, assuming your buyer has to apply for their mortgage, the exchange of contracts normally takes between 4 and 6 weeks and then completion is between 2 and 4 weeks later. So in total you should expect 12-14 weeks to complete the sale. Please note that in Scotland conclusion of missives normally takes between 6 and 8 weeks."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

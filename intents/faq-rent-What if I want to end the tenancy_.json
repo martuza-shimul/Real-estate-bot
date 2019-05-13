@@ -1,0 +1,41 @@
+{
+  "id": "9352e788-0e1c-4f30-9051-4fd5ca28f175",
+  "name": "faq-rent-What if I want to end the tenancy?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If you are tied into a fixed term contract, you will be liable for the rent until the fixed term is finished. If you are no longer in a fixed term contract (ie. a rolling contract) your tenancy agreement will define the notice you need to give."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

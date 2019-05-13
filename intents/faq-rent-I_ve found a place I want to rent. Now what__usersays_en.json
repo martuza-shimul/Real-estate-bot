@@ -1,0 +1,22 @@
+[
+  {
+    "id": "e3a91c4a-5331-4e00-b820-a40f274626fe",
+    "data": [
+      {
+        "text": "I\u0027ve found a place I want to rent. ",
+        "userDefined": false
+      },
+      {
+        "text": "Now",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " what?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  }
+]

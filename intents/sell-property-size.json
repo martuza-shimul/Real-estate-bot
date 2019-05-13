@@ -1,0 +1,57 @@
+{
+  "id": "054a0405-a905-4fc3-967c-e54f949e8dce",
+  "name": "sell-property-size",
+  "auto": true,
+  "contexts": [
+    "sp-property-size"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sp-size",
+      "affectedContexts": [
+        {
+          "name": "sp-bedroom",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c6f52072-255c-403f-b265-51c879d00cb7",
+          "dataType": "@sp-property-size",
+          "name": "sp-property-size",
+          "value": "$sp-property-size",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "How many bedrooms it has?",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

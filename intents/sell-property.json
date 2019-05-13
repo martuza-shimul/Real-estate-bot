@@ -1,0 +1,53 @@
+{
+  "id": "54da127a-82c8-4f9a-bb66-95daa0bde30e",
+  "name": "sell-property",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sp",
+      "affectedContexts": [
+        {
+          "name": "sp-start",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click the button to start",
+          "buttons": [
+            {
+              "text": "Let\u0027s Get Started",
+              "postback": "Let\u0027s Get Started"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic! We would love to help you sell your property fast."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We just need you to answer a few questions so that we can get you a custom \"Comparative Market Analysis\" and help you on your way to selling your property!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

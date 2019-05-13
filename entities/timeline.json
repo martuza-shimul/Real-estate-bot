@@ -1,0 +1,9 @@
+{
+  "id": "c33dec98-3b76-4843-88dc-065cb0f2dc82",
+  "name": "timeline",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

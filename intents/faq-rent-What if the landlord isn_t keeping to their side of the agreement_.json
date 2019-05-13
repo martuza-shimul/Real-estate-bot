@@ -1,0 +1,41 @@
+{
+  "id": "b183d4d2-c5ec-4ab2-9347-c5449309bda4",
+  "name": "faq-rent-What if the landlord isn\u0027t keeping to their side of the agreement?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If a tenant believes the landlord is not keeping to their side of the agreement – for instance, not maintaining the property in a fit state of repair – then the first thing the tenant should do is speak to their letting agent. The letting agent has a duty of care to the tenant, and may be able to help to resolve issues depending on the service type the landlord has with the agent. Look at your \u0027Welcome letter\u0027 to find out the service level of your landlord. Alternatively, a tenant can find independent advice from The Citizens Advice Bureau."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

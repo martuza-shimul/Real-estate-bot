@@ -1,0 +1,54 @@
+[
+  {
+    "id": "02455cbf-bdd4-4ff9-b289-38a2b6b9633d",
+    "data": [
+      {
+        "text": "7000 sq/ft+",
+        "alias": "bp-property-size",
+        "meta": "@bp-property-size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b12fd8b8-fb4f-4ea4-95ae-fbf77acaef03",
+    "data": [
+      {
+        "text": "4,000-7000 sq/ft",
+        "alias": "bp-property-size",
+        "meta": "@bp-property-size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9aac0018-5584-4a8c-aefd-d177390e26c3",
+    "data": [
+      {
+        "text": "2,000-4000 sq/ft",
+        "alias": "bp-property-size",
+        "meta": "@bp-property-size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e5d46f83-175d-4b4e-9993-444dcb4d7364",
+    "data": [
+      {
+        "text": "1,000-2,000 sq/ft",
+        "alias": "bp-property-size",
+        "meta": "@bp-property-size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

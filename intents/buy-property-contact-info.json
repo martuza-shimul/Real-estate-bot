@@ -1,0 +1,110 @@
+{
+  "id": "0b3cc049-b0f5-4964-a483-5fd8bbded4e6",
+  "name": "buy-property-contact-info",
+  "auto": true,
+  "contexts": [
+    "bp-bath-no"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bp-bath-city",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d6013cbf-221a-4701-9b53-26c60cd2f9e5",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "0c3641a8-b38e-42eb-91f7-6d5990f2ad1d",
+          "required": true,
+          "dataType": "@sys.location",
+          "name": "city",
+          "value": "$city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which city are you looking to live in? 🏙"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "545368fb-1353-45d9-946e-26379c0bf1cd",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "bp-email",
+          "value": "$bp-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your best email address? 📧​"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5dc8d377-07b5-47f3-b8d2-4a0f6ea14e78",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "bp-phone",
+          "value": "$bp-phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the best number to contact you at? 📱"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "I will pass this on to one of our agents right now and have them contact you ASAP!"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "subtitle": "Select an option below 👇 by clicking on the buttons",
+          "buttons": [
+            {
+              "text": "Sell Property",
+              "postback": "Sell Property"
+            },
+            {
+              "text": "View Listings",
+              "postback": "View Listings"
+            },
+            {
+              "text": "Rent",
+              "postback": "Rent"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic! I have all the info I need to help you find the perfect home for you! 🏡"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "6d60bf75-b7d9-499e-b528-ab6e33b4b012",
+  "name": "buy-property-budget",
+  "auto": true,
+  "contexts": [
+    "bp-budget"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bp-budget",
+      "affectedContexts": [
+        {
+          "name": "bp-size",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "905374f6-b2b0-4503-b9c3-175144fe939a",
+          "required": false,
+          "dataType": "@buy-budget",
+          "name": "buy-budget",
+          "value": "$buy-budget",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose here",
+          "replies": [
+            "1,000-2,000 sq/ft",
+            "2,000-4000 sq/ft",
+            "4,000-7000 sq/ft",
+            "7000 sq/ft+"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What size home are you looking for? 🏠"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

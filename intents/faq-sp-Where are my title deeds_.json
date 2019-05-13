@@ -1,0 +1,41 @@
+{
+  "id": "8c6e7f83-87f5-4bfc-9add-9fc79750fe19",
+  "name": "faq-sp-Where are my title deeds?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your title deeds give proof of ownership of the property and will need to be transferred to the buyer as part of the conveyancing process. These are usually held by your mortgage lender, and it will be your solicitor’s responsibility to obtain these."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

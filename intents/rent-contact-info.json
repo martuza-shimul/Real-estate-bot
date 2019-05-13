@@ -1,0 +1,81 @@
+{
+  "id": "671efce7-bdc5-4157-a3d6-cc510560a6e5",
+  "name": "rent-contact-info",
+  "auto": true,
+  "contexts": [
+    "rent-interest"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "rent-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "67263651-10cc-41ff-9159-5b0f59ec21a1",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "rent-email",
+          "value": "$rent-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "We really appreciate your interest. We need your email to proceed. Please enter your email."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "d885f712-3f5d-434a-805b-2ddff0c665fd",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "rent-contact",
+          "value": "$rent-contact",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your best Phone number to contact?"
+            },
+            {
+              "lang": "en",
+              "value": "Please Enter your phone number"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic! I have all the info I need to help you find the perfect home for you! 🏡"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I will pass this on to one of our agents right now and have them contact you ASAP!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

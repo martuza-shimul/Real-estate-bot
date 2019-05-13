@@ -1,0 +1,26 @@
+[
+  {
+    "value": "1,000-2,000 sq/ft",
+    "synonyms": [
+      "1,000-2,000 sq/ft"
+    ]
+  },
+  {
+    "value": "2,000-4000 sq/ft",
+    "synonyms": [
+      "2,000-4000 sq/ft"
+    ]
+  },
+  {
+    "value": "4000-7000 sq/ft",
+    "synonyms": [
+      "4000-7000 sq/ft"
+    ]
+  },
+  {
+    "value": "7000 sq/ft+",
+    "synonyms": [
+      "7000 sq/ft+"
+    ]
+  }
+]

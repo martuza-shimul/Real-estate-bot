@@ -1,0 +1,41 @@
+{
+  "id": "d6dc8486-eb2e-4e57-9dbd-3553a3fe54bd",
+  "name": "faq-rent-I need to find a place to rent. What do I do first?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy Property",
+            "Sell Property",
+            "List"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Before you start searching for your new home it’s a good idea to write down a budget. What are your current outgoings and what money do you have left each month to spend on rent? Take into account that, when you first move in, you will need to front a deposit as well as the first month’s rent and tenancy set up fees."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

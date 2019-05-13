@@ -1,0 +1,85 @@
+{
+  "id": "7af50788-58b4-4ba4-9875-3f357635e7db",
+  "name": "sp-contact-details",
+  "auto": true,
+  "contexts": [
+    "sp-bathroom"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sp-bathroom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "30c7dd22-cac4-4812-a04c-52425fcc13cd",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "769329ef-a4a4-46be-87fd-5e27eccca853",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "sp-email",
+          "value": "$sp-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your best email to reach?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "393c2df8-a257-442f-963b-c4a3f398df7a",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "sp-contact",
+          "value": "$sp-contact",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Lastly, what is the phone number to contact?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic! I have all the info I need to help you find the perfect buyer for you! 🏡"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I will pass this on to one of our agents right now and have them contact you ASAP!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

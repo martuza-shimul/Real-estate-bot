@@ -1,0 +1,41 @@
+{
+  "id": "8f79128f-2f80-47ac-93f9-e6d0f69fb165",
+  "name": "faq-bp-borrow-query",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The amount you are able to borrow will be based on your income and the size of your deposit. It is best to speak to a mortgage advisor and ideally get an agreement in principle from a lender before you start viewing, as this can help speed up the process."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "d934fdbb-3e6f-4c5c-97c4-78c59110b4f2",
+    "data": [
+      {
+        "text": "Is there any home for rent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "115ff841-3288-40f6-b45b-87b26073b992",
+    "data": [
+      {
+        "text": "may I see some home for rent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4143f73d-80ce-44ec-bf03-1305e9afffe1",
+    "data": [
+      {
+        "text": "Can you show me some home for rent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6628a3cb-bd86-4816-b56f-393d75ce37b3",
+    "data": [
+      {
+        "text": "I want to rent a house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fdccd549-23c9-49d6-bbe5-dc1252212c5e",
+    "data": [
+      {
+        "text": "I want to rent a home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "55a52b8c-2e24-4592-832a-4702d3c55ee6",
+    "data": [
+      {
+        "text": "rent home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "772e31cd-0134-4bcf-b5da-f6b772ada0e6",
+    "data": [
+      {
+        "text": "renting house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d5f69a55-e453-4e42-a729-ac4f1f2b1c89",
+    "data": [
+      {
+        "text": "rent house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "70e384f0-78ea-4fe0-ab77-a2a870dffbdd",
+    "data": [
+      {
+        "text": "renting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "86933b67-1581-46ce-a71a-2c9756ca56c2",
+    "data": [
+      {
+        "text": "rent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

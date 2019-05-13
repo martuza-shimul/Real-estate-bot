@@ -1,0 +1,41 @@
+{
+  "id": "df646082-dbb3-46a4-8e75-3f73d70aece7",
+  "name": "faq-rent-Who is responsible for repairs?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The landlord is responsible for maintaining the property in a good state of repair. They will either take care of this directly, or do so via a letting agent – make sure you know who to go to when there’s a fault at the beginning of the tenancy. Check your \u0027Welcome letter\u0027 to find out what service level your landlord has. If it is Tenant Find or Rent Collect, then you will need to talk to your landlord directly. It it is Fully Managed then the agent will help. If you do damage to the property you are expected to cover the cost of putting this right."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "value": "1000-2000 sq.ft",
+    "synonyms": [
+      "1000-2000 sq.ft",
+      "in 1000 to 2000",
+      "1000 to 2000",
+      "less than 2000"
+    ]
+  },
+  {
+    "value": "2000-4000 sq.ft",
+    "synonyms": [
+      "2000-4000 sq.ft",
+      "2000 to 4000",
+      "in 2000 to 4000",
+      "less than 4000"
+    ]
+  },
+  {
+    "value": "4000-5000 sq.ft",
+    "synonyms": [
+      "4000-5000 sq.ft",
+      "4000 to 5000",
+      "in 4000 to 5000 sq.ft",
+      "less than 5000"
+    ]
+  },
+  {
+    "value": "5000-9000 sq-ft",
+    "synonyms": [
+      "5000-9000 sq-ft",
+      "in 5000 to 9000",
+      "less than 9000",
+      "less than 9000 but more than 5000",
+      "more than 5000"
+    ]
+  },
+  {
+    "value": "10000 sq.ft +",
+    "synonyms": [
+      "10000 sq.ft +",
+      "more than 10000 sq.ft",
+      "more than 10000"
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "id": "fc8fcf46-8512-4312-8373-b73d0f016a29",
+  "name": "sell-property-adress-details",
+  "auto": true,
+  "contexts": [
+    "sp-timeline"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sp-timeline",
+      "affectedContexts": [
+        {
+          "name": "sp-property-size",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "388e6d0a-f2fd-40b3-bf7c-5a08df51b021",
+          "required": false,
+          "dataType": "@sp-timeline",
+          "name": "sp-timeline",
+          "value": "$sp-timeline",
+          "isList": false
+        },
+        {
+          "id": "a6c83e20-dacc-49f6-8f89-18eb4b7ffc03",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "sp-street-address",
+          "value": "$sp-street-address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your street address? 🏡\n\nIE: \"123 Main St\" (do NOT enter city, postcode)"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "9f63db20-69aa-4307-ad75-768f7436d2a0",
+          "required": true,
+          "dataType": "@sys.location",
+          "name": "sp-city",
+          "value": "$sp-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What city is your property located in? 🌆"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "aaba8f34-af57-4962-bf8c-b492635673e8",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "sp-postcode",
+          "value": "$sp-postcode",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the Postcode?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "What is the size of your property?",
+          "replies": [
+            "1000-2000 sq.ft",
+            "2000-4000 sq.ft",
+            "4000-5000 sq.ft",
+            "5000-9000 sq-ft"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

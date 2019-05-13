@@ -1,0 +1,123 @@
+[
+  {
+    "id": "958fc64e-2fab-4b0d-8825-9bf8755a9794",
+    "data": [
+      {
+        "text": "can you help me to buy a place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3d54a2d2-e070-4bcd-986d-2827147351d6",
+    "data": [
+      {
+        "text": "can you help me to buy a house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c85105d0-e23a-42bd-8d98-58d4bd7d6c5a",
+    "data": [
+      {
+        "text": "can you help me to buy a home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "aa89e069-c50f-49dc-9f46-b1e682624f19",
+    "data": [
+      {
+        "text": "Can you help me to buy a property",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "190c5cb6-9c3e-4d88-8188-fffda4f188e9",
+    "data": [
+      {
+        "text": "I want to buy a home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "80de7c14-ff62-42e5-b9c7-356b0ffd1a83",
+    "data": [
+      {
+        "text": "I want to buy a place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "23c11c90-8588-45c3-937d-cee76d8dd54e",
+    "data": [
+      {
+        "text": "I want to buy a property",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a2ebfee1-0f0c-4a0c-ac7b-1632202fb5bb",
+    "data": [
+      {
+        "text": "buy place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a2cd1255-03cd-46b8-8e93-425b597dc8be",
+    "data": [
+      {
+        "text": "buy home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f2e5597b-645c-4a89-ad8d-189f015b20f6",
+    "data": [
+      {
+        "text": "buy property",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9efd30ac-694e-4825-9f0e-547a206f0d94",
+    "data": [
+      {
+        "text": "buy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

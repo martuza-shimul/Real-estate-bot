@@ -1,0 +1,51 @@
+{
+  "id": "137fa662-830f-4f46-a3e0-a5d13c572796",
+  "name": "faq-bp-What other costs do I need to be aware of?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Solicitor\u0027s fees - These can vary quite widely so always ask for a quote before instructing one. An explanation of exactly what is included in the price should be provided."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Mortgage costs - When applying for a mortgage, the costs will typically include an arrangement fee based on the amount you borrow, as well as a valuation fee."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Stamp duty – This is a tax paid on all property sales over £125,000."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "37b46064-b9a1-4aee-a052-fc2a6dc596a1",
+  "name": "bp-property-size",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

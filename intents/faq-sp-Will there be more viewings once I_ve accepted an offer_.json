@@ -1,0 +1,41 @@
+{
+  "id": "e6e3fcb7-2781-4641-89a9-fcd5644580ab",
+  "name": "faq-sp-Will there be more viewings once I\u0027ve accepted an offer?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This partly depends on the conditions of the offer. Remember, neither the buyer or the seller is bound to the purchase or sale until the contracts are signed and exchanged (in Scotland at conclusion of missives), so it’s worth keeping your options open."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

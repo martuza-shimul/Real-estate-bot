@@ -1,0 +1,41 @@
+{
+  "id": "9aba09ea-1769-491a-b72a-13faf4f9b0d2",
+  "name": "faq-rent-What is a guarantor?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If a tenant is not fully approved by the referencing process, they can ask a guarantor to support them. A guarantor (usually a parent or guardian) will agree to take joint responsibility for the rent for the property if the tenant fails to. Guarantors are required to pay any rent arrears (if the tenant does not pay) and for any damages costing more than the deposit."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "b87be517-a4ef-4273-ac94-0e7d88ea1223",
+  "name": "faq-rent-What will happen to my deposit?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Landlords and letting agents are required to register your deposit with an approved Tenancy Deposit Scheme. Your Move landlords register their deposits with a scheme such as My Deposits. The deposit is then either held by the landlord, the agent or the deposit scheme itself. You should receive details of the scheme, explaining where the deposit is held."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

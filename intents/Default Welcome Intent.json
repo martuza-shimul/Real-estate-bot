@@ -1,0 +1,60 @@
+{
+  "id": "fe0d59de-8466-4f45-aa18-d0efe888a2fb",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Welcome to Our Real Estate Company! 🤖",
+          "subtitle": "Select an option below 👇 by clicking on the buttons",
+          "buttons": [
+            {
+              "text": "Buy Property",
+              "postback": "Buy Property"
+            },
+            {
+              "text": "Sell Property",
+              "postback": "Sell Property"
+            },
+            {
+              "text": "Rent",
+              "postback": "Rent"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

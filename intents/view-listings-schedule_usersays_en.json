@@ -1,0 +1,48 @@
+[
+  {
+    "id": "45e45ae6-818c-4186-a136-f9992acc19d2",
+    "data": [
+      {
+        "text": "i want to arrange a viewing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbd8a146-2eeb-4491-87c5-b6e29d473f99",
+    "data": [
+      {
+        "text": "Hi I want to book an appointment to see a property",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e303e955-333f-40b2-af2c-aac96a1d6bed",
+    "data": [
+      {
+        "text": "schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f0b89a0b-1b95-4a63-8c6f-5a2082c9501a",
+    "data": [
+      {
+        "text": "appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

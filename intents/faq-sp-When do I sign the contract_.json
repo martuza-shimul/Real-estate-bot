@@ -1,0 +1,41 @@
+{
+  "id": "afabcc0a-1827-47f5-b921-57299cf75833",
+  "name": "faq-sp-When do I sign the contract?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Once the sale has been agreed, your solicitor will draft a contract. The seller’s solicitor will confirm the details of the property and perform searches. At the same time, the buyer’s mortgage lender will conduct a mortgage valuation and send a mortgage offer to the buyer. When all of this is complete, you will be ready to sign the contract and agree the completion date."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

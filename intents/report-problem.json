@@ -1,0 +1,62 @@
+{
+  "id": "1c69db6d-18f8-4e4c-ae2d-ebeda7a558ae",
+  "name": "report-problem",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "report",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e90d93a7-200f-4e3a-8386-047729da47b0",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "report",
+          "value": "$report",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please write your problem in details below"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with",
+          "replies": [
+            "Buy",
+            "Sell",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for letting us know."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I will pass this on to one of our agents right now to fix the problem"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

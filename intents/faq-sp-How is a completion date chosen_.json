@@ -1,0 +1,41 @@
+{
+  "id": "d5d52c2b-9541-43ad-8cbc-c1c32fd66be5",
+  "name": "faq-sp-How is a completion date chosen?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you?",
+          "replies": [
+            "Sell",
+            "Buy",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When both contracts have been signed, the buyer’s solicitor will request the mortgage from the buyer’s lender. Once these funds are released, then your solicitor and the buyer’s solicitor will consult both parties and agree a completion date."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

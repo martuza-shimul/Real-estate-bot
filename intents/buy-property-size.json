@@ -1,0 +1,59 @@
+{
+  "id": "2d9e1b66-4109-4d9d-8bb1-0a88e9ced499",
+  "name": "buy-property-size",
+  "auto": true,
+  "contexts": [
+    "bp-size"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bp-size",
+      "affectedContexts": [
+        {
+          "name": "bp-bed-no",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8d0baff5-c11b-47e2-acfa-909ac38fc052",
+          "dataType": "@bp-property-size",
+          "name": "bp-property-size",
+          "value": "$bp-property-size",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose here",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How many MINIMUM bedrooms do you need? 🛏"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "128158bc-e51d-41f3-be2f-1141d49d54f8",
+    "data": [
+      {
+        "text": "I need to find a place to rent. What do I do ",
+        "userDefined": false
+      },
+      {
+        "text": "first",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

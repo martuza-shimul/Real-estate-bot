@@ -1,0 +1,9 @@
+{
+  "id": "508a4e93-6a2e-4dab-ab63-a710001d70bb",
+  "name": "sp-property-size",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

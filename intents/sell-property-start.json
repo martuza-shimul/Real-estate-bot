@@ -1,0 +1,49 @@
+{
+  "id": "4ef085a1-8db5-479a-a83c-3943b3bc9da1",
+  "name": "sell-property-start",
+  "auto": true,
+  "contexts": [
+    "sp-start"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sp-start",
+      "affectedContexts": [
+        {
+          "name": "sp-timeline",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "How soon are you looking to sell your property? ⌚",
+          "replies": [
+            "Now",
+            "1-3 Months",
+            "3-6 Months"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

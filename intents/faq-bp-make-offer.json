@@ -1,0 +1,41 @@
+{
+  "id": "03e42a7f-cce9-4525-a430-4b5622c39576",
+  "name": "faq-bp-make-offer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You will need to contact your estate agent, who will take your offer to the seller. Alongside the price being offered, factors such as your ability to proceed will be taken into account. The offer will then be rejected, accepted, or negotiations will begin. If an offer is rejected another offer can be made"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

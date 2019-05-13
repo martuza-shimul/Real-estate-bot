@@ -1,0 +1,41 @@
+{
+  "id": "5ca6cd24-9688-476d-a08c-41a29f03b963",
+  "name": "faq-rent-Do I need to show ID?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "As part of the referencing process we need to be sure a tenant is who they say they are. We will require a proof of residency (such as a utility or council tax bill from the last 3 months) and proof of ID (such as a passport or driving licence)."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

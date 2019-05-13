@@ -1,0 +1,89 @@
+{
+  "id": "a13ae109-8170-4e50-9461-77b8ec9510fd",
+  "name": "rent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "rent-interest",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "60 Cross Street, London, N1 2BA",
+          "subtitle": "£2250/month - 5 beds, 3 baths and 2450 sq.ft",
+          "imageUrl": "https://media.onthemarket.com/properties/4253316/487279774/image-0-480x320.jpg",
+          "buttons": [
+            {
+              "text": "Interested",
+              "postback": "Interested"
+            },
+            {
+              "text": "Back Home",
+              "postback": "Reset"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "16a, Little London, Milton Keynes, MK19 6HT",
+          "subtitle": "£2050/month - 4 beds, 2 baths and 2200 sq.ft",
+          "imageUrl": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/49k/48928/67141138/48928_STS150175_IMG_01_0001_max_476x317.jpg",
+          "buttons": [
+            {
+              "text": "Interested",
+              "postback": "Interested"
+            },
+            {
+              "text": "Back Home",
+              "postback": "Reset"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "83 Upper St, London, N1 0NU",
+          "subtitle": "£1750/month - 3 beds, 2 baths and 2000 sq.ft",
+          "imageUrl": "https://www.sellhousefast.uk/blog/wp-content/uploads/2016/05/detached-house-countryside-small.v1463063716.jpg",
+          "buttons": [
+            {
+              "text": "Intereseted",
+              "postback": "Interested"
+            },
+            {
+              "text": "Back Home",
+              "postback": "Reset"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We have quite a few rentals right now. Take a look and let me know if you are interested in any."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

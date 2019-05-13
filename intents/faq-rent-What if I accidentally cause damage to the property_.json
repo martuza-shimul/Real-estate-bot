@@ -1,0 +1,41 @@
+{
+  "id": "d979e987-ee1b-4c52-b961-99b5f29479c4",
+  "name": "faq-rent-What if I accidentally cause damage to the property?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Don’t worry – accidents happen. Tell whoever is responsible for the property maintenance (either the landlord or letting agent) as soon as possible. You will be expected to cover the cost of putting it right. Don’t try to ignore or hide damage because it could get worse, and it will only come out of your deposit at the end of the tenancy."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "6f51eb53-99cd-4201-8122-25bb2b415a04",
+  "name": "view-listings",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "list-schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "100 Upper St, London, N1 0NP",
+          "subtitle": "£450k - 4 beds and 2 baths - 2197 sq.ft",
+          "imageUrl": "http://renovation-london.co.uk/wp-content/uploads/2017/02/Refurbishment-House-in-London-UK-21.jpg",
+          "buttons": [
+            {
+              "text": "Schedule Showing",
+              "postback": "Appointment"
+            },
+            {
+              "text": "Back Home",
+              "postback": "Reset"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "7 Upper St, London, N1 0PQ",
+          "subtitle": "£1100k - 6 beds and 5 baths - 3597 sq.ft",
+          "imageUrl": "https://s3-eu-west-1.amazonaws.com/property-media/37060/37060_28196141/photo/37060_28196141_88db76b9b06d4ebf8e9d2ce062b541de.jpg",
+          "buttons": [
+            {
+              "text": "Schedule Showing",
+              "postback": "Appointment"
+            },
+            {
+              "text": "Back Home",
+              "postback": "Reset"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "207 Upper St, London, N1 1RL",
+          "subtitle": "£1150k - 5 beds and 4 baths - 3297 sq.ft",
+          "imageUrl": "http://hometomove.co.uk/wp-content/uploads/2017/03/65806_HAM140001_IMG_267_0000.jpg",
+          "buttons": [
+            {
+              "text": "Schedule Showing",
+              "postback": "Appointment"
+            },
+            {
+              "text": "Back Home",
+              "postback": "Reset"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

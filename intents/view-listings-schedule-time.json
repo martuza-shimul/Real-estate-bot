@@ -1,0 +1,82 @@
+{
+  "id": "3fdb73eb-033f-45ab-b122-ebb50e03d259",
+  "name": "view-listings-schedule-time",
+  "auto": true,
+  "contexts": [
+    "list-schedule-time"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "list-schedule-time",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "54ba8914-a4ea-4d51-98a8-2d29dc6aec09",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "list-time",
+          "value": "$list-time",
+          "isList": false
+        },
+        {
+          "id": "be7f0acc-a842-410f-80e0-5eb6ad8ed288",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "list-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Cool! What is your best email?"
+            }
+          ]
+        },
+        {
+          "id": "3b45c8c8-597f-4a86-8e08-8e34585b528e",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "list-contact",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Lastly, What is your Phone Number to contact?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "I will pass this on to one of our agents right now and have them contact you ASAP!"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy",
+            "Sell",
+            "Rent"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic! Your Appointment is confirmed to show you the perfect home for you! 🏡"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "5d98bd73-233f-4bed-a268-139c53065d37",
+    "data": [
+      {
+        "text": "Tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ecf4ade4-36c9-42b6-b8f6-4291eb606863",
+    "data": [
+      {
+        "text": "Monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a0f29922-7fc5-4e19-b271-9a5907203dcf",
+    "data": [
+      {
+        "text": "Saturday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1f7a2eb2-7f80-4e4e-a6aa-48322f27f8dd",
+    "data": [
+      {
+        "text": "next friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c41fc800-ad10-4f90-81c5-0aedd41532d4",
+    "data": [
+      {
+        "text": "friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

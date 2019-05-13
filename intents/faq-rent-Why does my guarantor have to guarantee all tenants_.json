@@ -1,0 +1,41 @@
+{
+  "id": "bc96839d-f5a1-4db2-a72e-1aa398cfffbd",
+  "name": "faq-rent-Why does my guarantor have to guarantee all tenants?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can do for you?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In the case of a house-share, the tenancy agreement makes all tenants jointly responsible for all rents and responsibilities. There is no individual ‘share’ of the rent written into the agreement. The guarantor therefore has the same responsibility."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "c073e5f5-36f5-4649-b07c-aae6b069c64a",
+    "data": [
+      {
+        "text": "show details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "94cd6e2c-270f-4bae-8f0a-bd8dd58d4c92",
+    "data": [
+      {
+        "text": "yes please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a34fa1a6-4886-487b-90f8-18c13a51ba06",
+    "data": [
+      {
+        "text": "Interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

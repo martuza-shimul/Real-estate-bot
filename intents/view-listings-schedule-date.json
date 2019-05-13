@@ -1,0 +1,65 @@
+{
+  "id": "4cbbdba5-007c-4bac-a9f4-4b8f01341f97",
+  "name": "view-listings-schedule-date",
+  "auto": true,
+  "contexts": [
+    "list-schedule-date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "list-schedule-date",
+      "affectedContexts": [
+        {
+          "name": "list-schedule-time",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "23deb04f-a7a7-4152-aae6-f59d6f78e919",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Which time you preferred?",
+          "replies": [
+            "9 am",
+            "10 am",
+            "11 am",
+            "12 pm",
+            "1 pm",
+            "2 pm",
+            "3 pm",
+            "4 pm",
+            "5 pm",
+            "6 pm"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "837bc374-6c70-4950-99fb-e266cc1b9b73",
+  "name": "faq-bp-Is a survey required?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Buy Property",
+            "Sell Property",
+            "Rent",
+            "Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A survey is not legally required, however it is always advisable to have one completed. There are three different types:\n\nA mortgage valuation – The lender will insist on carrying out a formal valuation to reassure them that the property is sufficient security against the loan."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A home buyer report – This is a detailed, visual inspection of the property. It should be conducted by a qualified surveyor and will highlight any issues that may require further investigation.\n\nA structural survey – This is required for older properties, or those that have undergone major structural changes or have been constructed from unusual materials."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "3f41a421-cb2f-4686-be81-30e0c7e2de85",
+  "name": "faq-rent-I\u0027ve found a place I want to rent. Now what?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Rent",
+            "Buy",
+            "Sell",
+            "View Listings"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If you haven’t already, make sure you go and view the property. If it’s a house-share, meet all the people you’ll be moving in with. The letting agent will ask you to sign a Tenancy Fee Declaration form which lists the services they will provide and the fees expected from you. The agent will then begin the referencing process to ensure you’re in a position to rent the property"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
